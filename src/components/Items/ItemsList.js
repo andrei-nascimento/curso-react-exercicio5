@@ -1,7 +1,7 @@
 export const itemsList = [
     {
         "icon": "🎂",
-        "name": "Bolo de Aniversário",
+        "name": "Bolo",
         "price": 20.9
     },
     {
@@ -16,12 +16,12 @@ export const itemsList = [
     },
     {
         "icon": "🧃",
-        "name": "Suco de Caixinha",
+        "name": "Suco",
         "price": 1.9
     },
     {
         "icon": "🍬",
-        "name": "Doces Diversos",
+        "name": "Doces",
         "price": 12.30
     }
 ]

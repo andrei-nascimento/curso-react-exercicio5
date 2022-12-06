@@ -1,17 +1,24 @@
 .item {
     display: flex;
-    margin: 5px 0;
-    padding: 20px;
-    border: 1px solid #dbdbdb;
-    border-radius: 5px;
+    justify-content: flex-start;
+    margin: 8px 0;
+    padding-left: 28px;
+    padding-right: 28px;
+    border: 2px solid #dbdbdb;
+    border-radius: 8px;
     cursor: pointer;
+    color: white;
+    font-size: 18px
 }
 
 .item:hover {
     background-color: lightgreen;
+    color: black;
 }
 
 .selected {
+    color: black;
     border-color: green;
-    background-color: lightgray;
+    background-color: lightgreen;
+    font-weight: 600
 }

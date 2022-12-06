@@ -1,3 +1,4 @@
 export default function CashRegister({ total }) {
-    return <p className="register">Total do pedido: R$ {total.toFixed(2)}</p>
+    return <p style={{color: 'white', fontWeight: '600', fontSize: 18, marginTop: 24}}>
+        Total do pedido: R$ {total.toFixed(2)}</p>
 }
